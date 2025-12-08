@@ -31,10 +31,21 @@
   </developers>
 
   <scm>
-             <connection>scm:git:git://github.com/SalathielGenese/greet.git</connection>
     <developerConnection>scm:git:ssh://github.com:SalathielGenese/greet.git</developerConnection>
-                           <url>http://github.com/SalathielGenese/greet/tree/main</url>
+    <connection>scm:git:git://github.com/SalathielGenese/greet.git</connection>
+    <url>http://github.com/SalathielGenese/greet/tree/main</url>
   </scm>
+
+  <distributionManagement>
+    <repository>
+        <id>greet</id>
+        <url>https://mvnrepository.com/releases</url>
+    </repository>
+    <snapshotRepository>
+        <id>greet</id>
+        <url>https://mvnrepository.com/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
 
   <dependencies>
     <dependency>
