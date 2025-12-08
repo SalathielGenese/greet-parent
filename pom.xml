@@ -11,7 +11,7 @@
   <description>A project used to demonstrate `mvn deploy --revision` working.</description>
 
   <properties>
-    <revision>0.0.1-SNAPSHOT<.revision>
+    <revision>0.0.1-SNAPSHOT</revision>
   </properties>
 
   <licenses>
