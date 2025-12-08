@@ -38,6 +38,10 @@
   </scm>
 
   <distributionManagement>
+    <repository>
+      <id>greet</id>
+      <url>https://central.sonatype.com/repository/maven-releases/</url>
+    </repository>
     <snapshotRepository>
       <id>greet</id>
       <url>https://central.sonatype.com/repository/maven-snapshots/</url>
