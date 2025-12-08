@@ -4,9 +4,38 @@
   <groupId>io.github.salathielgenese.greet</groupId>
   <artifactId>greet-parent</artifactId>
   <packaging>jar</packaging>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>${revision}</version>
+
   <name>greet-parent</name>
-  <url>http://maven.apache.org</url>
+  <url>https://salathiel.genese.name/greet</url>
+  <description>A project used to demonstrate `mvn deploy --revision` working.</description>
+
+  <properties>
+    <revision>0.0.1-SNAPSHOT<.revision>
+  </properties>
+
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+
+   <developers>
+    <developer>
+      <name>Salathiel Genese YIMGA YIMGA</name>
+      <email>salathielgenese@gmail.com</email>
+      <organization>Macrocephal</organization>
+      <organizationUrl>https://macrocephal.cloud</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+             <connection>scm:git:git://github.com/SalathielGenese/greet.git</connection>
+    <developerConnection>scm:git:ssh://github.com:SalathielGenese/greet.git</developerConnection>
+                           <url>http://github.com/SalathielGenese/greet/tree/main</url>
+  </scm>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
